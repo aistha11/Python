@@ -26,5 +26,5 @@ p=a*b
 print("Element wise product: ",p)
 p=np.dot(a,b)
 print("Product: ",p)
-t=np.trnspose(a)
+t=np.transpose(a)
 print("Transpose of a: ",t)
