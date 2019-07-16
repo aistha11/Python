@@ -1,3 +1,4 @@
+#write a python program to design chatbot system that implement simple reflex agent
 print("Simple Chatbot System")
 print("************************")
 print("You May Ask One Of These Question")
@@ -17,7 +18,7 @@ while True:
   elif question in ['are you working?','where do you work']:
     print("Yes, I work as a CEO of Google.")
   elif question in ['what did you do yesterday?']:
-    print("I played football in futsal")
+    print("I was waiting for you.")
   elif question in ['what is your name?','who are you?']:
       print("My name is AI.")
   elif question in ['bye']:
