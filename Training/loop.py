@@ -116,20 +116,35 @@ print(a[:4])
 WAP to count the number of 1010 sequences inside a long string eg: "1010 000 1010 11 101010" -> 4 
 """
 
-a = "1010"
+# a = "1010"
+# s = "1010 000 1010 11 101010"
+# count = 0
+# for i in range(len(s) - len(a) + 1):
+#     if s[i] == a[0]:
+#         if s[i+1] == a[1]:
+#             if s[i+2] == a[2]:
+#                 if s[i+3] == a[3]:
+#                     count += 1
+# print(count)
 
-s = "1010 000 1010 11 101010"
+# a = "1010"
+# s = "1010 000 1010 11 101010"
+# ln_s = len(s)
+# count = 0
 
-count = 0
+# for i in range(len(s)):
+#     if s[i:ln_s][:4] == a:
+#         count += 1
+# print(count)
 
-for i in range(len(s) - len(a) + 1):
-    # print(s[i])
-    if s[i] == a[0]:
-        if s[i+1] == a[1]:
-            if s[i+2] == a[2]:
-                if s[i+3] == a[3]:
-                    count += 1
-print(count)
+# input_str = "1010000101011101010"
+# count = 0
+# for i in range(len(input_str) - 3):
+#     if input_str[i:i+4]=="1010":
+#         count += 1
+# print(count)
+
+
 
 
 
